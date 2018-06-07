@@ -5,6 +5,7 @@ More Languages for Adobe Brackets
 *More Languages for Adobe Brackets* is a plugin to extend code and markup language support in `Adobe Brackets`_ using the native `CodeMirror`_ language modes. 
 
 This plugin currently supports code/markup highlights for the following languages: 
+
     #. Brainfuck
     #. COBOL
     #. Common Lisp
