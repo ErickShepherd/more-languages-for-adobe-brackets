@@ -6,30 +6,49 @@ More Languages for Adobe Brackets
 
 This plugin currently supports syntax highlighting and comment hotkeys for the following languages: 
 
-#. Brainfuck
-#. COBOL
-#. Common Lisp
-#. Cython
-#. D
-#. Fortran
-#. HTTP
-#. IDL
-#. Julia
-#. LaTeX
-#. LiveScript
-#. Mathematica
-#. Pascal
-#. PowerShell
-#. R
-#. reStructuredText (RST/reST)
-#. sTeX
-#. Swift.
+#. `Brainfuck`_
+#. `COBOL`_
+#. `Common Lisp`_
+#. `Cython`_
+#. `D`_
+#. `Fortran`_
+#. `HTTP`_
+#. `IDL`_
+#. `Julia`_
+#. `LaTeX`_
+#. `LiveScript`_
+#. `Mathematica`_
+#. `Pascal`_
+#. `PowerShell`_
+#. `R`_
+#. `reStructuredText (RST/reST)`_
+#. `sTeX`_
+#. `Swift`_
 
 The `examples`_ folder contains example syntax for each supported language sourced from `CodeMirror`_.
 
 .. _`Adobe Brackets`: http://brackets.io
 .. _`CodeMirror`:     http://codemirror.net
 .. _`examples`:       examples
+
+.. _`Brainfuck`:                    http://codemirror.net/mode/brainfuck/index.html
+.. _`COBOL`:                        http://codemirror.net/mode/cobol/index.html
+.. _`Common Lisp`:                  http://codemirror.net/mode/commonlisp/index.html
+.. _`Cython`:                       http://codemirror.net/mode/cython/index.html
+.. _`D`:                            http://codemirror.net/mode/d/index.html
+.. _`Fortran`:                      http://codemirror.net/mode/fortran/index.html
+.. _`HTTP`:                         http://codemirror.net/mode/http/index.html
+.. _`IDL`:                          http://codemirror.net/mode/idl/index.html
+.. _`Julia`:                        http://codemirror.net/mode/julia/index.html
+.. _`LaTeX`:                        http://codemirror.net/mode/stex/index.html
+.. _`LiveScript`:                   http://codemirror.net/mode/livescript/index.html
+.. _`Mathematica`:                  http://codemirror.net/mode/mathematica/index.html
+.. _`Pascal`:                       http://codemirror.net/mode/pascal/index.html
+.. _`PowerShell`:                   http://codemirror.net/mode/powershell/index.html
+.. _`R`:                            http://codemirror.net/mode/r/index.html
+.. _`reStructuredText (RST/reST)`:  http://codemirror.net/mode/rst/index.html
+.. _`sTeX`:                         http://codemirror.net/mode/stex/index.html
+.. _`Swift`:                        http://codemirror.net/mode/swift/index.html
 
 Copyright and License
 =====================
