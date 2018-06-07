@@ -49,35 +49,41 @@ define(function (require, exports, module) {
     LanguageManager.defineLanguage("brainfuck", {
         name:           "Brainfuck",
         mode:           "brainfuck",
-        fileExtensions: ["bf"]
+        fileExtensions: ["bf"],
     });
     
     // COBOL highlighting support.
     LanguageManager.defineLanguage("cobol", {
         name:           "COBOL",
         mode:           "cobol",
-        fileExtensions: ["cbl", "cob", "cpy"]
+        fileExtensions: ["cbl", "cob", "cpy"],
+        lineComment:    ["*"]
     });
     
     // Common Lisp highlighting support.
     LanguageManager.defineLanguage("commonlisp", {
         name:           "Common Lisp",
         mode:           "commonlisp",
-        fileExtensions: ["cl", "lisp"]
+        fileExtensions: ["cl", "lisp"],
+        lineComment:    [";;"]
     });
     
     // Cython highlighting support.
     LanguageManager.defineLanguage("cython", {
         name:           "Cython",
         mode:           ["python", "text/x-cython"],
-        fileExtensions: ["pyx"]
+        fileExtensions: ["pyx"],
+        lineComment:    ["#"],
+        blockComment:   ["\"\"\"", "\"\"\""]
     });
     
     // D highlighting support.
     LanguageManager.defineLanguage("d", {
         name:           "D",
         mode:           "d",
-        fileExtensions: ["d"]
+        fileExtensions: ["d"],
+        lineComment:    ["//"],
+        blockComment:   ["/*", "*/"]
     });
 	
     // Fortran highlighting support.
@@ -87,7 +93,8 @@ define(function (require, exports, module) {
         fileExtensions: ["F",   "F03", "F08", "F90", 
                          "F95", "FOR", "FPP", "FTN", 
                          "f",   "f03", "f08", "f90", 
-                         "f95", "for", "fpp", "ftn"]
+                         "f95", "for", "fpp", "ftn"],
+        lineComment:    ["!"],
     });
     
     // HTTP highlighting support.
@@ -101,49 +108,60 @@ define(function (require, exports, module) {
 	LanguageManager.defineLanguage("idl", {
         name:           "IDL",
         mode:           "idl",
-        fileExtensions: ["idl"]
+        fileExtensions: ["idl"],
+        lineComment:    [";;"]
     });
     
     // Julia highlighting support.
 	LanguageManager.defineLanguage("julia", {
         name:           "Julia",
         mode:           "julia",
-        fileExtensions: ["jl"]
+        fileExtensions: ["jl"],
+        lineComment:    ["#"],
+        blockComment:   ["#=", "=#"]
     });
     
     // LiveScript highlighting support.
 	LanguageManager.defineLanguage("livescript", {
         name:           "LiveScript",
         mode:           "livescript",
-        fileExtensions: ["ls"]
+        fileExtensions: ["ls"],
+        lineComment:    ["#"],
+        blockComment:   ["/*", "*/"]
     });
     
     // Mathematica highlighting support.
 	LanguageManager.defineLanguage("mathematica", {
         name:           "Mathematica",
         mode:           "mathematica",
-        fileExtensions: ["m", "mt", "nb"]
+        fileExtensions: ["m", "mt", "nb"],
+        blockComment:   ["(*", "*)"]
     });
     
     // Pascal highlighting support.
 	LanguageManager.defineLanguage("pascal", {
         name:           "Pascal",
         mode:           "pascal",
-        fileExtensions: ["pas", "pp"]
+        fileExtensions: ["pas", "pp"],
+        lineComment:    ["//"],
+        blockComment:   ["(*", "*)"]
     });
     
     // PowerShell highlighting support.
 	LanguageManager.defineLanguage("powershell", {
         name:           "PowerShell",
         mode:           "powershell",
-        fileExtensions: ["ps1"]
+        fileExtensions: ["ps1"],
+        lineComment:    ["#"],
+        blockComment:   ["<#", "#>"]
     });
 	
     // R highlighting support.
 	LanguageManager.defineLanguage("r", {
         name:           "R",
         mode:           "r",
-        fileExtensions: ["R", "RData", "r", "rda", "rds"]
+        fileExtensions: ["R", "RData", "r", "rda", "rds"],
+        lineComment:    ["#"]
     });
     
     // reStructuredText (RST / reST) highlighting support.
@@ -164,6 +182,8 @@ define(function (require, exports, module) {
 	LanguageManager.defineLanguage("swift", {
         name:           "Swift",
         mode:           "swift",
-        fileExtensions: ["swift"]
+        fileExtensions: ["swift"],
+        lineComment:    ["//"],
+        blockComment:   ["/*", "*/"]
     });
 });
