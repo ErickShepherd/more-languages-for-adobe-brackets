@@ -1,0 +1,14 @@
+{
+    "name":         "more-languages-for-adobe-brackets",
+    "title":        "More Languages for Adobe Brackets",
+    "description":  "A plugin to extend code and markup language support in Adobe Brackets using the native CodeMirror. This plugin currently supports code/markup highlights for Brainfuck, COBOL, Common Lisp, Cython, D, Fortran, IDL, LaTeX, Mathematica, Pascal, PowerShell, reStructuredText (RST/reST), sTeX, and Swift.",
+    "homepage":     "https://github.com/ErickShepherd/more-languages-for-adobe-brackets",
+    "version":      "1.0.0",
+    "author":       "Erick Shepherd (http://github.com/ErickShepherd)",
+    "license":      "AGPLv3",
+    "engines": 
+    {
+        "brackets": ">=0.24.0"
+    },
+    "keywords":     ["F", "F03", "F08", "F90", "F95", "FOR", "FPP", "FTN", "REST", "bf", "brainfuck", "cbl", "cl", "cob", "cobol", "common lisp", "commonlisp", "cpy", "cython", "d", "f", "f03", "f08", "f90", "f95", "for", "fortran", "fpp", "ftn", "idl", "latex", "lisp", "m", "mathematica", "mt", "nb", "pas", "pascal", "powershell", "pp", "ps1", "pyx", "reST", "rest", "rst", "stex", "swift", "tex"]
+}
