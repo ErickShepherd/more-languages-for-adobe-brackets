@@ -7,11 +7,10 @@ File:           main.js
 Description:    A plugin to extend code and markup language support in Adobe 
                 Brackets using the native CodeMirror language modes.
                 
-                This plugin currently supports code/markup highlights and 
-                comment hotkeys for Brainfuck, COBOL, Common Lisp, Cython, D, 
-                Fortran, HTTP, IDL, Julia, LaTeX, LiveScript, Mathematica, 
-                Pascal, PowerShell, R, reStructuredText (RST/reST), 
-                sTeX, and Swift.
+                This plugin currently supports syntax highlighting and comment
+                hotkeys for Brainfuck, COBOL, Common Lisp, Cython, D, Fortran, 
+                HTTP, IDL, Julia, LaTeX, LiveScript, Mathematica, Pascal, 
+                PowerShell, R, reStructuredText (RST/reST), sTeX, and Swift.
                 
 Source:         github.com/ErickShepherd/more-languages-for-adobe-brackets
 
