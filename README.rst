@@ -5,30 +5,27 @@ More Languages for Adobe Brackets
 *More Languages for Adobe Brackets* is a plugin to extend code and markup language support in `Adobe Brackets`_ using the native `CodeMirror`_ language modes. 
 
 This plugin currently supports code/markup highlights for the following languages: 
-#. Brainfuck
-#. COBOL
-#. Common Lisp
-#. Cython
-#. D
-#. Fortran
-#. HTTP
-#. IDL
-#. Julia
-#. LaTeX
-#. LiveScript
-#. Mathematica
-#. Pascal
-#. PowerShell
-#. R
-#. reStructuredText (RST/reST)
-#. sTeX
-#. Swift.
+    #. Brainfuck
+    #. COBOL
+    #. Common Lisp
+    #. Cython
+    #. D
+    #. Fortran
+    #. HTTP
+    #. IDL
+    #. Julia
+    #. LaTeX
+    #. LiveScript
+    #. Mathematica
+    #. Pascal
+    #. PowerShell
+    #. R
+    #. reStructuredText (RST/reST)
+    #. sTeX
+    #. Swift.
 
 .. _`Adobe Brackets`: http://brackets.io
 .. _`CodeMirror`:     http://codemirror.net
-
-.. contents:: **Table of Contents**
-    :depth: 2
 
 Copyright and License
 =====================
