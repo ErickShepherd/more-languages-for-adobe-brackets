@@ -6,24 +6,24 @@ More Languages for Adobe Brackets
 
 This plugin currently supports code/markup highlights and comment hotkeys for the following languages: 
 
-    #. Brainfuck
-    #. COBOL
-    #. Common Lisp
-    #. Cython
-    #. D
-    #. Fortran
-    #. HTTP
-    #. IDL
-    #. Julia
-    #. LaTeX
-    #. LiveScript
-    #. Mathematica
-    #. Pascal
-    #. PowerShell
-    #. R
-    #. reStructuredText (RST/reST)
-    #. sTeX
-    #. Swift.
+#. Brainfuck
+#. COBOL
+#. Common Lisp
+#. Cython
+#. D
+#. Fortran
+#. HTTP
+#. IDL
+#. Julia
+#. LaTeX
+#. LiveScript
+#. Mathematica
+#. Pascal
+#. PowerShell
+#. R
+#. reStructuredText (RST/reST)
+#. sTeX
+#. Swift.
 
 .. _`Adobe Brackets`: http://brackets.io
 .. _`CodeMirror`:     http://codemirror.net
@@ -41,6 +41,6 @@ Copyright and License
 
     You should have received a copy of the GNU Affero General Public License along with *More Languages for Adobe Brackets*. If not, see <https://www.gnu.org/licenses/>.
 
-See the ```LICENSE.txt`_`` file for full details.
+See the `LICENSE.txt`_ file for full details.
 
 .. _`LICENSE.txt`: LICENSE.txt
