@@ -25,8 +25,11 @@ This plugin currently supports code/markup highlights and comment hotkeys for th
 #. sTeX
 #. Swift.
 
+The `examples`_ folder contains example code/markup for each supported language sourced from `CodeMirror`_.
+
 .. _`Adobe Brackets`: http://brackets.io
 .. _`CodeMirror`:     http://codemirror.net
+.. _`examples`:       examples
 
 Copyright and License
 =====================
