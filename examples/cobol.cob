@@ -11,7 +11,7 @@
 000009* License:        MIT License
 000010* 
 000011*                 Copyright (C) 2017 by Marijn Haverbeke  
-000012*                 <marijnh@gmail.com> and others
+000012*                 <marijnh@gmail.com> and others.
 000013* 
 000014*                 Permission is hereby granted, free of charge, to any  
 000015*                 person obtaining a copy of this software and associated 

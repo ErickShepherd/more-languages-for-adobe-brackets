@@ -1,15 +1,10 @@
-POST /somewhere HTTP/1.1
-Host: example.com
-If-Modified-Since: Sat, 29 Oct 1994 19:43:31 GMT
-Content-Type: application/x-www-form-urlencoded;
-	charset=utf-8
-User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.11 (KHTML, like Gecko) Ubuntu/12.04 Chromium/20.0.1132.47 Chrome/20.0.1132.47 Safari/536.11
+{% comment "Documentation" %}
 
 Accessed by:    Erick Edward Shepherd
-Accessed on:    2018-06-06
-Language:       HTTP
+Accessed on:    2018-06-08
+Language:       Django
 Source entity:  CodeMirror
-Source site:    codemirror.net/mode/http/index.html
+Source site:    codemirror.net/mode/django/index.html
 
 Purpose:        Example to test plugin success in syntax highlighting.
 
@@ -38,3 +33,32 @@ License:        MIT License
                 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
                 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR 
                 OTHER DEALINGS IN THE SOFTWARE.
+
+{% endcomment %}
+
+<!doctype html>
+<html>
+  <head>
+    <title>My Django web application</title>
+  </head>
+  <body>
+    <h1>
+      {{ page.title|capfirst }}
+    </h1>
+    <ul class="my-list">
+      {# traverse a list of items and produce links to their views. #}
+      {% for item in items %}
+      <li>
+        <a href="{% url 'item_view' item.name|slugify %}">
+          {{ item.name }}
+        </a>
+      </li>
+      {% empty %}
+      <li>You have no items in your list.</li>
+      {% endfor %}
+    </ul>
+    {% comment "this is a forgotten footer" %}
+    <footer></footer>
+    {% endcomment %}
+  </body>
+</html>

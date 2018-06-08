@@ -11,6 +11,7 @@ This plugin currently supports syntax highlighting and comment hotkeys for the f
 #. `Common Lisp`_
 #. `Cython`_
 #. `D`_
+#. `Django`_
 #. `Fortran`_
 #. `HTTP`_
 #. `IDL`_
@@ -36,6 +37,7 @@ The `examples`_ folder contains example syntax for each supported language sourc
 .. _`Common Lisp`:                  http://codemirror.net/mode/commonlisp/index.html
 .. _`Cython`:                       http://codemirror.net/mode/cython/index.html
 .. _`D`:                            http://codemirror.net/mode/d/index.html
+.. _`Django`:                       http://codemirror.net/mode/django/index.html
 .. _`Fortran`:                      http://codemirror.net/mode/fortran/index.html
 .. _`HTTP`:                         http://codemirror.net/mode/http/index.html
 .. _`IDL`:                          http://codemirror.net/mode/idl/index.html
