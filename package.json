@@ -15,7 +15,7 @@
                      ".REST",      ".bf",         ".cbl",      ".cl",        ".cob", 
                      ".cpy",       ".d",          ".dj.html",  ".djt",       ".djt.html",
                      ".f",         ".f03",        ".f08",      ".f90",       ".f95",    
-                     ".for",       ".fpp",        ".ftn",      ".htm",       ".html"
+                     ".for",       ".fpp",        ".ftn",      ".htm",       ".html",
                      ".html.dj",   ".html.djt",   ".http",     ".idl",       ".jl",
                      ".lisp",      ".ls",         ".m",        ".mt",        ".nb",
                      ".pas",       ".pp",         ".ps1",      ".pyx",       ".r", 
