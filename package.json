@@ -10,5 +10,17 @@
     {
         "brackets": ">=1.0.0"
     },
-    "keywords":     ["F", "F03", "F08", "F90", "F95", "FOR", "FPP", "FTN", "REST", "bf", "brainfuck", "cbl", "cl", "cob", "cobol", "common lisp", "commonlisp", "cpy", "cython", "d", "f", "f03", "f08", "f90", "f95", "for", "fortran", "fpp", "ftn", "http", "idl", "jl", "julia", "latex", "lisp", "livescript", "ls", "m", "mathematica", "mt", "nb", "pas", "pascal", "powershell", "pp", "ps1", "pyx", "R", "RData", "r", "rda", "rds", "reST", "rest", "rst", "stex", "swift", "tex"]
+    "keywords":     [".F",         ".F03",    ".F08",        ".F90",        ".F95", 
+                     ".FOR",       ".FPP",    ".FTN",        ".R",          ".RData", 
+                     ".REST",      ".bf",     ".cbl",        ".cl",         ".cob", 
+                     ".cpy",       ".d",      ".f",           ".f03",       ".f08", 
+                     ".f90",       ".f95",    ".for",        ".fpp",        ".ftn", 
+                     ".http",      ".idl",    ".jl",         ".lisp",       ".ls", 
+                     ".m",         ".mt",     ".nb",         ".pas",        ".pp", 
+                     ".ps1",       ".pyx",    ".r",          ".rda",        ".rds", 
+                     ".reST",      ".rest",   ".rst",        ".swift",      ".tex", 
+                     "brainfuck",  "cobol",   "common lisp", "commonlisp",  "cython", 
+                     "d",          "fortran", "http",        "idl",         "julia", 
+                     "latex",      "lisp",    "livescript",  "mathematica", "pascal", 
+                     "powershell", "r",       "reST",        "stex",        "swift"]
 }
