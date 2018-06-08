@@ -89,10 +89,12 @@ define(function (require, exports, module) {
     });
 	
     // Django highlighting support.
+    LanguageManager.getLanguage("html").removeFileExtension(["htm", "html"]);
+    
     LanguageManager.defineLanguage("django", {
         name:           "Django",
         mode:           "django",
-        fileExtensions: ["dj.html", "djt", "djt.html", "html.dj", "html.djt"]
+        fileExtensions: ["dj.html", "djt", "djt.html", "htm", "html", "html.dj", "html.djt"]
     });
     
     // Fortran highlighting support.
