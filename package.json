@@ -14,7 +14,7 @@
                      ".FOR",      ".FPP",       ".FTN",        ".R",         ".RData", 
                      ".REST",     ".bf",        ".cbl",        ".cl",        ".cob", 
                      ".cpy",      ".d",         ".dj.html",    ".djt",       ".djt.html",
-                     ".f",        ".f03",      ".f08",        ".f90",        ".f95",    
+                     ".f",        ".f03",       ".f08",        ".f90",       ".f95",    
                      ".for",      ".fpp",       ".ftn",        ".html.dj",   ".html.djt", 
                      ".http",     ".idl",       ".jl",         ".lisp",      ".ls", 
                      ".m",        ".mt",        ".nb",         ".pas",       ".pp", 
