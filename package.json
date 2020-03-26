@@ -3,7 +3,7 @@
     "title":        "More Languages for Adobe Brackets",
     "description":  "A plugin to extend code and markup language support in Adobe Brackets using the native CodeMirror language modes. This plugin currently supports syntax highlighting and comment hotkeys for Brainfuck, COBOL, Common Lisp, Cython, D, Django, Fortran, HTTP, IDL, Julia, LaTeX, LiveScript, Mathematica, Pascal, PowerShell, R, reStructuredText (RST/reST), sTeX, and Swift.",
     "homepage":     "https://github.com/ErickShepherd/more-languages-for-adobe-brackets",
-    "version":      "1.1.1",
+    "version":      "1.1.3",
     "author":       "Erick Shepherd (http://github.com/ErickShepherd)",
     "license":      "AGPLv3",
     "engines": 
@@ -24,5 +24,5 @@
                      "commonlisp", "cython",      "d",         "django",     "fortran",
                      "http",       "idl",         "julia",     "latex",      "lisp",
                      "livescript", "mathematica", "pascal",    "powershell", "r",
-                     "reST",       "stex",        "swift"]
+                     "reST",       "stex",        "swift",     "Rproj"]
 }

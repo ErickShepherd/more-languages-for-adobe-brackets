@@ -171,7 +171,7 @@ define(function (require, exports, module) {
 	LanguageManager.defineLanguage("r", {
         name:           "R",
         mode:           "r",
-        fileExtensions: ["R", "RData", "r", "rda", "rds"],
+        fileExtensions: ["R", "RData", "r", "rda", "rds", "Rproj"],
         lineComment:    ["#"]
     });
     
