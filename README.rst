@@ -55,7 +55,7 @@ The `examples`_ folder contains example syntax for each supported language sourc
 Copyright and License
 =====================
 
-*More Languages for Adobe Brackets* is Copyright © 2018 of Erick Edward Shepherd - All rights reserved. 
+*More Languages for Adobe Brackets* is Copyright © 2018-2020 of Erick Edward Shepherd - All rights reserved. 
 
 *More Languages for Adobe Brackets* is licensed under the GNU Affero General Public License v3.0 (AGPLv3):
 
