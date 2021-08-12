@@ -21,7 +21,7 @@ Website:        ErickShepherd.com
 GitHub:         github.com/ErickShepherd
 
 Date created:   2018-06-06
-Last updated:   2018-06-08
+Last updated:   2021-08-12
 
 Copyright (C) 2018 of Erick Edward Shepherd - All Rights Reserved.
 
@@ -44,9 +44,11 @@ with "More Languages for Adobe Brackets". If not, see
 */
 
 define(function (require, exports, module) {
+    
     "use strict";
+    
     var LanguageManager = brackets.getModule("language/LanguageManager");
-
+    
     // Brainfuck highlighting support.
     LanguageManager.defineLanguage("brainfuck", {
         name:           "Brainfuck",
@@ -180,6 +182,14 @@ define(function (require, exports, module) {
         name:           "reStructuredText",
         mode:           "rst",
         fileExtensions: ["rst", "rest", "reST", "REST"]
+    });
+    
+    // Solidity highlighting support.
+    require('./node_modules/codemirror-solidity/solidity');
+    LanguageManager.defineLanguage("solidity", {
+        name:           "Solidity",
+        mode:           ["solidity", "text/x-solidity"],
+        fileExtensions: ["sol"]
     });
     
     // sTeX / LaTeX highlighting support.
