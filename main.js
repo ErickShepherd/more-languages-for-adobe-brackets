@@ -4,14 +4,14 @@ Plugin:         More Languages for Adobe Brackets
 
 File:           main.js
 
-Description:    A plugin to extend code and markup language support in Adobe 
+Description:    A plugin to extend code and markup language support in Adobe
                 Brackets using the native CodeMirror language modes.
                 
                 This plugin currently supports syntax highlighting and comment
-                hotkeys for Brainfuck, COBOL, Common Lisp, Cython, D, Django, 
-                Fortran, HTTP, IDL, Julia, LaTeX, LiveScript, Mathematica, 
-                Pascal, PowerShell, R, reStructuredText (RST/reST), sTeX, and 
-                Swift.
+                hotkeys for Batch, Brainfuck, COBOL, Common Lisp, Cython, D,
+                Django, Fortran, HTTP, IDL, Julia, LaTeX, LiveScript,
+                Mathematica, Pascal, PowerShell, R,
+                reStructuredText (RST/reST), Solidity, sTeX, and Swift.
                 
 Source:         github.com/ErickShepherd/more-languages-for-adobe-brackets
 
@@ -21,7 +21,7 @@ Website:        ErickShepherd.com
 GitHub:         github.com/ErickShepherd
 
 Date created:   2018-06-06
-Last updated:   2021-08-12
+Last updated:   2021-11-05
 
 Copyright (C) 2018 of Erick Edward Shepherd - All Rights Reserved.
 
@@ -48,6 +48,28 @@ define(function (require, exports, module) {
     "use strict";
     
     var LanguageManager = brackets.getModule("language/LanguageManager");
+    
+    // Batch highlighting support.
+    //
+    //  - Third-party dependency sourced from {CodeStore} Public.
+    //     * https://www.codestore.cloud/public-snippets/6799646300799306030
+    //     * https://stackoverflow.com/questions/53505246
+    //
+    //  - Primary copyright: Franz Deschler
+    //
+    //  - License: None
+    //
+    //  - Contributors:
+    //     * Franz Deschler
+    //
+    //  - Minor edits made by Erick Shepherd for local plugin implementation.
+    //
+    require('./extra_modes/codemirror-batch/batch');
+    LanguageManager.defineLanguage("batch", {
+        name:           "Batch",
+        mode:           ["batch", "text/x-batch"],
+        fileExtensions: ["bat", "cmd"]
+    });
     
     // Brainfuck highlighting support.
     LanguageManager.defineLanguage("brainfuck", {
@@ -185,7 +207,21 @@ define(function (require, exports, module) {
     });
     
     // Solidity highlighting support.
-    require('./node_modules/codemirror-solidity/solidity');
+    //
+    //  - Third-party dependency sourced from GitHub:
+    //     * https://github.com/alincode/codemirror-solidity
+    //
+    //  - Primary copyright: alincode (Ai-Lin Liou)
+    //
+    //  - License: MIT
+    //
+    //  - Contributors:
+    //     * Ai-Lin Liou
+    //     * Janicklas Ralph
+    //
+    //  - Minor edits made by Erick Shepherd for local plugin implementation.
+    //
+    require('./extra_modes/codemirror-solidity/solidity');
     LanguageManager.defineLanguage("solidity", {
         name:           "Solidity",
         mode:           ["solidity", "text/x-solidity"],
